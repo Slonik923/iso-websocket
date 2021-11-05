@@ -1,0 +1,6 @@
+[submodule "iso-websocket-example-browser"]
+	path = iso-websocket-example-browser
+	url = git@github.com:Slonik923/iso-websocket-example-browser.git
+[submodule "iso-websocket-example-node"]
+	path = iso-websocket-example-node
+	url = git@github.com:Slonik923/iso-websocket-example-node.git
