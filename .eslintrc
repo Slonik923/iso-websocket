@@ -1,0 +1,3 @@
+{
+	"extends": "@excalibur-enterprise/eslint-config-xclbr/ts"
+}

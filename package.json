@@ -1,0 +1,33 @@
+{
+  "name": "@excalibur-enterprise/rpc-websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/node.js",
+  "browser": "lib/browser.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build --clean && rm -rf lib && tsc --build",
+    "lint": "eslint . --ext .ts",
+    "lint-fix": "npm run lint -- --fix"
+  },
+  "keywords": [],
+  "author": "Excalibur s.r.o.",
+  "license": "ISC",
+  "dependencies": {
+    "@excalibur-enterprise/liqd-logger": "^4.3.1",
+    "node": "^17.0.1",
+    "typed-emitter": "^1.4.0",
+    "ws": "^8.2.3"
+  },
+  "devDependencies": {
+    "@excalibur-enterprise/eslint-config-xclbr": "^1.0.3",
+    "@types/node": "^16.11.6",
+    "@types/ws": "^8.2.0",
+    "typescript": "^4.4.4",
+    "ts-node": "^10.2.1"
+  }
+}
